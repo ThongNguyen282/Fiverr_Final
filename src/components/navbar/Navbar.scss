@@ -1,0 +1,106 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    transition: 0.5s all ease;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    border-bottom: 1px solid lightgrey;
+    .container {
+        width: 1400px;
+        display: flex;
+        // background-color: lawngreen;
+        justify-content: space-between;
+        padding: 20xp 0;
+        .logo {
+            font-size: 34px;
+            font-weight: bold;
+            .text {
+            }
+            .dot {
+                color: #1dbf73;
+            }
+        }
+        .search {
+        }
+        .links {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            font-weight: 500;
+
+            .links_arrow {
+                padding: 4px;
+                cursor: pointer;
+                display: flex;
+                text-align: center;
+                align-items: center;
+                &:hover {
+                    background-color: #f5f5f5;
+                }
+            }
+            .links_hover {
+                cursor: pointer;
+                &:hover {
+                    color: #1dbf73;
+                }
+            }
+
+            .user {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                cursor: pointer;
+                position: relative;
+                img {
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+                .opitons {
+                    position: absolute;
+                    top: 50px;
+                    right: 0;
+                    padding: 20px;
+                    background-color: white;
+                    border: 1px solid lightgray;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    width: 200px;
+                }
+            }
+
+            button {
+                color: #1dbf73;
+                padding: 10px 20px;
+                border-radius: 5px;
+                border: 1px solid #1dbf73;
+                cursor: pointer;
+                background-color: transparent;
+                &:hover {
+                    background-color: #1dbf73;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    hr {
+        width: 100%;
+        height: 0;
+        border: 0.5px solid lightgrey;
+        margin: 0;
+    }
+    .menu {
+        width: 1400px;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 300;
+        color: gray;
+    }
+}

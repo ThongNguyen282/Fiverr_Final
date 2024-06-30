@@ -1,0 +1,53 @@
+.featured {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    .container {
+        background-image: url(https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/678686c47c024e18e773c75e90aaab1c-1705999902381/hero-xl-x1.png);
+        width: 1336px;
+        height: 500px;
+        background-repeat: no-repeat;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        .top {
+            width: 616px;
+            color: white;
+            h1 {
+                font-size: 60px;
+                letter-spacing: -2.4px;
+                em {
+                    font-size: 63px;
+                    color: #1dbf73;
+                }
+            }
+            form {
+                position: relative;
+                height: 60px;
+                border-radius: 12px;
+                background-color: white;
+                input {
+                    padding: 10px 58px 10px 16px;
+                    border: 0;
+                    outline: none; /* Remove the focus outline */
+                    box-shadow: none;
+                }
+                button {
+                    position: absolute;
+                    top: 6px;
+                    right: 6px;
+                    height: 48px;
+                    width: 48px;
+                    background-color: #003912;
+                    color: white;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: #126f43;
+                    }
+                }
+            }
+        }
+    }
+}
